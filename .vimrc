@@ -19,6 +19,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 
 Plugin 'wakatime/vim-wakatime'
 
+Plugin 'flazz/vim-colorschemes'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,7 +51,7 @@ set t_Co=256
 
 set fdm=indent
 
-colorscheme atom-dark-256 
+colorscheme lightning
 syntax on
 autocmd VimEnter * NERDTree
 
